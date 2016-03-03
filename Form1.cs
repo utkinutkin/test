@@ -90,7 +90,7 @@ namespace Course_Project__Practice_
             int x, y = 0;
             if (e.Button == MouseButtons.Left)
             {
-                x = e.X;
+                x = e.X + Location.X;
                 y = e.Y;
                 Location = new Point(x, y);
             }
